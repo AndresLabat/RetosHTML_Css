@@ -1,0 +1,28 @@
+#cajaPrincipal{
+    background-color: rgba(250, 244, 221, 0.723);
+    width: 32em;
+}
+
+#cajaPrincipal h1{
+    background-color: rgba(255, 204, 0, 0.853);
+    font-size: large;
+}
+
+#plato{
+    color: rgb(102, 160, 196);
+    font-style: italic; /* esto aplica texto en cursiva */
+}
+
+.detallesReceta{
+    color: rgb(102, 160, 196);
+    font-style: italic; /* esto aplica texto en cursiva */
+}
+
+.tituloListados{
+    color: rgb(102, 160, 196);
+    font-weight: bold;  /* esto aplica texto en negrita */
+}
+
+.listaDesordenada{
+    list-style-type: none;  /* elimina el marcador visual del principio de las listas */
+}

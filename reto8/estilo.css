@@ -1,0 +1,42 @@
+.border{
+    border: 0.5em solid lightgray;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    width: 50em;
+}
+
+h1{
+    text-align: center;
+}
+
+#FirstPartTitle{
+    color: green;
+}
+
+#SecondPartTitle{
+    color: rgb(212, 140, 5);
+}
+
+h2{
+    color: rgb(127, 185, 52);
+    border-bottom: 0.1em solid lightgray;
+}
+
+h3{
+    color: rgb(212, 140, 5);
+}
+
+#mainAside{
+    display: flex;
+}
+
+.barraNavegacion{
+    width: 10em;
+}
+
+.innerBorder{
+    border: 0.1em solid lightgray;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 49em;
+}
