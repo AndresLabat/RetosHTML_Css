@@ -9,6 +9,16 @@ body{
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    background: linear-gradient(to bottom, 
+    white,
+    yellow,
+    orange,
+    red,
+    purple,
+    blue,
+    green,
+    black);
+    /* degradado multicolor de superior a inferior */
 }
 
 #divExterior{
@@ -73,6 +83,7 @@ h3{
     padding: 1em;
     width: 49em;
     background: linear-gradient(to bottom, lightgray 0%, white 10%, white 90%, lightgray 100%);
+    /* degradado de grises en los bordes superior e inferior */
 }
 
 p{
@@ -88,14 +99,17 @@ ul{
 }
 
 li{
+    /* degradado de dos colores */
     background: linear-gradient(to top, rgba(127, 185, 52, 0.52), rgba(255, 255, 255, 1));
     border: 0.1em solid lightgray;
     margin-bottom: 0.5em;
     text-align: center;
     padding: 0.5em;
+    cursor: pointer;
 }
 
 #botonInicio{
+    /* degradado de dos colores */
     background: linear-gradient(to top, rgba(209, 132, 101, 0.557), rgba(255, 255, 255, 1));
 }
 
